@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body
+{
+    font-family:"Bebas Neue";
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    
+}
+/*Website Top Start*/
+.header{
+   
+    height:40vh;
+    background:linear-gradient(#1488CC,#2B32B2);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}
+
+.header-top
+{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-self: flex-start;
+    width:175vh;
+  
+    
+  
+}
+li
+{
+    list-style-type:none ;
+
+
+}
+a
+{
+    text-decoration: none;
+    background:linear-gradient(#F9D423,#e65c00);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/*#e65c00,#F9D423*/
+.logo
+{
+   
+    background: url("image/bf4.png") no-repeat;
+    width:150px;
+    height:68px;
+    
+}
+
+ul
+{
+    display: flex;
+    gap:10px;
+    padding: 0;
+    margin-right:100px;
+
+}
+.header-content 
+{
+  
+    width:100vh;
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+
+.container-right
+{
+    
+    width:300px;
+    height:235px;
+    background:url("image/logo2.png") no-repeat;
+    padding-top:16px;
+    
+   
+}
+.container-left 
+{
+   
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.buy 
+{
+    align-self:center;
+   
+}
+
+.container-left h2 
+{
+    
+    font-size: 40px;
+  background: linear-gradient(#ffffff, #dae3ec,#c5d2dd,#accbe0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  margin-bottom:0;
+}
+.container-left p 
+{
+    font-size:23px;
+   
+    background:linear-gradient(#F9D423,#e65c00);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.buy 
+{
+    padding:8px 15px;
+    border-radius:8px;
+    border:none;
+    background:linear-gradient(#F9D423,#d16015);
+    color:rgb(25, 35, 167);
+    transition: transform .4s ease-out;
+    
+}
+
+button:hover
+{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+button:active
+{
+ border: solid 1px;
+}
+
+/*Website Top End*/
+
+
+
+.main
+{
+  
+    height:13cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    flex-wrap: wrap;
+    padding:16px 0px;
+    background:url("image/bf4-background.jpeg");
+    background-size: cover;
+    overflow: auto;
+    /*background: linear-gradient(#C9D6FF,#E2E2E2);*/
+}
+.classe 
+{
+    
+    width:60vh;
+    height:6cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+    background:linear-gradient(#fafafa,#bebec0);
+    opacity: .95;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.image 
+{
+    
+    width:125px;
+    height:150px;
+   
+}
+
+.image.assault
+{
+   /* background: url("image/Assault2.png") no-repeat;*/
+   display: flex;
+   justify-content: center;
+   
+    
+}
+.image.ingenieur 
+{
+    display:flex;
+    justify-content: center;
+}
+
+.image.support
+{
+    display:flex;
+    justify-content: center;
+    margin-top:8px;
+}
+
+.image.sniper 
+{
+ display:flex;
+ justify-content: center;
+ margin-top:8px;
+}
+
+.classe p
+{
+    font-size:27px;
+    background:linear-gradient(#242323,#000000);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    position: relative;
+    bottom: 20px;
+    
+    
+}
+
+.maps 
+{
+    height:max-content;
+    width:1434px;
+    border-right: solid 6px;
+    display:flex;
+    flex-direction:column ;
+}
+
+.map.top
+{
+    
+    display: flex;
+  
+}
+
+.sieg,.lockeroom
+{
+    
+    width:720px;
+    height:403px;
+
+}
+
+.map.second
+{
+    
+    display: flex;
+}
+
+.golmud,.metro
+{
+ 
+ width:720px;
+ height:403px;
+}
+
+.sieg,.lockeroom,.golmud,.metro
+{
+    display:flex;
+    justify-content: center;
+    
+  
+   
+}
+.sieg p,.lockeroom p,.golmud p,.metro p
+{
+    font-size: 20px;
+    font-weight: 900;
+    background:linear-gradient(#ffffff, #dae3ec,#c5d2dd,#accbe0);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+   
+   
+}
+
+.sieg
+{
+    background:url("image/siege2.jpeg")  no-repeat;
+}
+
+.lockeroom
+{
+    background:url("image/locker2.jpeg")  no-repeat;
+}
+.golmud
+{
+    background:url("image/golmud2.jpeg")  no-repeat;
+}
+.metro
+{
+    background:url("image/metro2.jpeg") no-repeat;
+   
+}
+
+span.p 
+{
+    
+    border-radius:16px ;
+    height:max-content;
+    margin-top:20px ;
+    padding:0px 15px;
+    background:#515b61;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+    
+    
+}
+
+.weapon
+{
+    width:1408px;
+    height:119vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:16px;
+    padding: 16px;
+    background: url("image/arm-back-2.jpeg") no-repeat;
+    background-size: cover;
+  
+    
+}
+.title
+{
+    font-size:50px;
+    background:linear-gradient(#000000, #1e1e1f,#3f4041,#797a7a);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    
+}
+
+.list 
+{
+    
+    display:flex;
+    gap:100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:150vh;
+   
+    
+}
+
+.arme 
+{
+   
+    height:350px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:16px ;
+    font-size:25px ;
+    background:linear-gradient(#ffffff, #dae3ec,#c5d2dd,#accbe0);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    ;
+}
+
+
+.img.aek
+{
+    height:226px;
+    width:275px;
+    background: url("image/aek-971-.png") no-repeat;
+}
+
+.img.m4
+{
+    height:206px;
+    width:295px;
+    background:url("image/m416-.png") no-repeat;
+}
+
+.img.scar
+{
+    height:177px;
+    width:300px;
+    background:url("image/Scar-H-.png") no-repeat;
+}
+.img.ak
+{
+ height:155px;
+ width:300px;
+ background:url("image/ak-12-.png") no-repeat;
+}
+
+.img.L9
+{
+    height:210px;
+    width:275px;
+    background:url("image/L96A1-.png") no-repeat;
+}
+
+.img.gol
+{
+    height:219px;
+    width:275px;
+    background:url("image/GOLMAG-.png") no-repeat;
+}
+
+li:hover 
+{
+    border-bottom: solid 1px  orange;
+    
+
+}
+li
+{
+    transition: border .2s ease-out;
+}
+
